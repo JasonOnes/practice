@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^@=6@(9*i-)+lo(g_s@bbrzm2&1f3f98**c_5oydq6u6!+*ye$'
+SECRET_KEY = 'hsc@13($+1^%r+5=j*i3pi&q3_iu%%%=qor1ykof00nym#_w31'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # My apps
-    'learning_loggins',
+    # My apps here
+    'learning_logs',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'learning_loggins.urls'
+ROOT_URLCONF = 'learning_log.urls'
 
 TEMPLATES = [
     {
