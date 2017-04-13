@@ -19,5 +19,7 @@ from django.contrib import admin
 app_name = "learning_logs"
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^users/', include('users.urls', namespace='users')),
     url(r'', include('learning_logs.urls', namespace='learning_logs')),
+
 ]
