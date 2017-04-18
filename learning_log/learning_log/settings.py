@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 # My settings
-LOGIN_URL = '/users/login/' 
+LOGIN_URL = '/users/login/'
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third party apps
+    'bootstrap3', 
     # My apps here
     'learning_logs',
     'users',
